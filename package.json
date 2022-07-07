@@ -1,6 +1,10 @@
 {
   "name": "k-td-hijri",
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "author": "Khaled Said (kerbrose@hotmail.com)",
+  "type": "module",
+  "description": "A Web Component for hijri picker",
+  "main": "bundle.js",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
