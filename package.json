@@ -1,10 +1,12 @@
 {
   "name": "k-td-hijri",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Khaled Said (kerbrose@hotmail.com)",
+  "license": "GPL-3",
   "type": "module",
   "description": "A Web Component for hijri picker",
   "main": "bundle.js",
+  "style": "styles.css",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -12,7 +14,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
-  "private": true,
+  "private": false,
   "dependencies": {
     "@angular/animations": "^14.0.0",
     "@angular/common": "^14.0.0",
@@ -29,6 +31,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.1.1",
     "@popperjs/core": "2.10",
     "bootstrap": "^5.1.3",
+    "ngx-build-plus": "^14.0.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
